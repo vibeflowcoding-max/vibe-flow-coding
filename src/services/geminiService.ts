@@ -27,7 +27,7 @@ export async function chatWithGemini(history: Message[], userInput: string): Pro
 
     try {
         const response = await ai.models.generateContent({
-            model: "gemini-3-pro-preview",
+            model: "gemini-3-flash-preview",
             contents: [
                 ...history.map(m => ({ role: m.role, parts: [{ text: m.text }] })),
                 { role: 'user', parts: [{ text: userInput }] }
