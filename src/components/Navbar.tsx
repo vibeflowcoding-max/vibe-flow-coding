@@ -29,14 +29,10 @@ const Navbar: React.FC<NavbarProps> = ({ lang, setLang }) => {
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <button
                     onClick={scrollToTop}
-                    className="flex items-center gap-4 hover:opacity-80 transition-opacity cursor-pointer focus:outline-none"
+                    className="flex items-center gap-3 hover:opacity-80 transition-opacity cursor-pointer focus:outline-none"
                     aria-label="Vibe Flow Coding Home"
                 >
-                    <BrandLogo className="w-16 h-10" showText={false} />
-                    <div className="flex flex-col items-start leading-none">
-                        <span className="text-[#C5A059] text-base font-black tracking-[0.2em] uppercase">VIBE FLOW</span>
-                        <span className="text-slate-400 text-[9px] font-bold tracking-[0.4em] uppercase mt-1">CODING</span>
-                    </div>
+                    <BrandLogo className="h-12 w-auto" showText={true} />
                 </button>
 
                 <div className="hidden lg:flex gap-10 text-[11px] font-bold uppercase tracking-widest text-slate-400 items-center">

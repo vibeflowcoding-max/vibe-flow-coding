@@ -1,43 +1,299 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vibe Flow Coding | AI-Powered Business Transformation</title>
-    <meta name="description" content="Vibe Flow Coding builds elite AI architecture to automate operations, optimize resources, and dominate your market." />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      body {
-        font-family: 'Inter', sans-serif;
-        scroll-behavior: smooth;
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta -->
+  <title>Vibe Flow Coding | AI-Powered Business Transformation & Automation</title>
+  <meta name="description"
+    content="Vibe Flow Coding builds elite AI architecture to automate operations, optimize resources, and dominate your market. Custom AI agents, smart restaurant systems, and business automation." />
+  <meta name="keywords"
+    content="AI automation, business automation, AI agents, restaurant technology, WhatsApp chatbot, virtual menu, custom web apps, Vibe Flow Coding" />
+  <meta name="author" content="Vibe Flow Coding" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#C5A059" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://vibeflowcoding.com/" />
+
+  <!-- Hreflang: bilingual ES/EN -->
+  <link rel="alternate" hreflang="es" href="https://vibeflowcoding.com/" />
+  <link rel="alternate" hreflang="en" href="https://vibeflowcoding.com/" />
+  <link rel="alternate" hreflang="x-default" href="https://vibeflowcoding.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Vibe Flow Coding" />
+  <meta property="og:title" content="Vibe Flow Coding | AI-Powered Business Transformation" />
+  <meta property="og:description"
+    content="Elite AI architecture to automate your operations, optimize your resources, and dominate your market. Custom AI agents, smart restaurant systems, and business automation." />
+  <meta property="og:url" content="https://vibeflowcoding.com/" />
+  <meta property="og:image" content="https://vibeflowcoding.com/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:locale:alternate" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Vibe Flow Coding | AI-Powered Business Transformation" />
+  <meta name="twitter:description"
+    content="Elite AI architecture to automate operations, optimize resources, and dominate your market." />
+  <meta name="twitter:image" content="https://vibeflowcoding.com/og-image.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/vibe-flow-coding-logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Performance: preload hero image (LCP) & prefetch external domains -->
+  <link rel="dns-prefetch" href="https://images.unsplash.com" />
+  <link rel="preload" as="image"
+    href="https://images.unsplash.com/photo-1551288049-bbb65182fedc?auto=format&fit=crop&q=80&w=800" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Vibe Flow Coding",
+      "url": "https://vibeflowcoding.com",
+      "logo": "https://vibeflowcoding.com/favicon.svg",
+      "description": "Vibe Flow Coding builds elite AI architecture to automate operations, optimize resources, and dominate your market.",
+      "email": "vibeflowcoding@gmail.com",
+      "telephone": "+50671266775",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+50671266775",
+        "contactType": "sales",
+        "availableLanguage": ["Spanish", "English"]
+      },
+      "sameAs": [
+        "https://wa.me/50671266775"
+      ]
+    }
+    </script>
+
+  <!-- JSON-LD: WebSite -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Vibe Flow Coding",
+      "url": "https://vibeflowcoding.com",
+      "inLanguage": ["es", "en"],
+      "description": "AI-powered business transformation and automation solutions."
+    }
+    </script>
+
+  <!-- JSON-LD: FAQPage (boosts GEO/AI citation) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does Vibe Flow Coding do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vibe Flow Coding builds elite AI architecture to automate business operations, including custom web applications, autonomous AI agents, WhatsApp chatbots, smart virtual menus for restaurants, and AI-powered admin dashboards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Vibe Flow Restaurant Suite?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Restaurant Suite is a complete AI ecosystem for restaurants that includes a WhatsApp ordering agent, a smart virtual menu with dynamic upselling, and a profit optimization dashboard that reduces food waste by up to 25%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can AI automation reduce business costs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI agents handle customer inquiries, order processing, and resource management automatically, eliminating human bottlenecks, reducing labor costs, and optimizing inventory to prevent waste and maximize profit margins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Vibe Flow Coding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can request a free technical architecture audit by contacting us via WhatsApp at +50671266775 or emailing vibeflowcoding@gmail.com. We analyze your specific business needs to implement the best automation solution."
+          }
+        }
+      ]
+    }
+    </script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .gradient-bg {
+      background: radial-gradient(circle at top left, #1a232e 0%, #050a0f 100%);
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.02);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(197, 160, 89, 0.1);
+    }
+
+    .text-gold {
+      color: #C5A059;
+    }
+
+    .bg-gold {
+      background-color: #C5A059;
+    }
+
+    .border-gold {
+      border-color: rgba(197, 160, 89, 0.3);
+    }
+
+    .shadow-gold {
+      box-shadow: 0 10px 30px -10px rgba(197, 160, 89, 0.3);
+    }
+
+    /* ── Scroll Entrance Animations ── */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(32px);
       }
-      .gradient-bg {
-        background: radial-gradient(circle at top left, #1a232e 0%, #050a0f 100%);
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
       }
+    }
+
+    @keyframes fadeInScale {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .animate-on-scroll {
+      opacity: 0;
+      will-change: transform, opacity;
+    }
+
+    .animate-visible {
+      animation: fadeInUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    .animate-visible-scale {
+      animation: fadeInScale 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    /* Staggered children */
+    .stagger-1 {
+      animation-delay: 0.1s;
+    }
+
+    .stagger-2 {
+      animation-delay: 0.2s;
+    }
+
+    .stagger-3 {
+      animation-delay: 0.3s;
+    }
+
+    .stagger-4 {
+      animation-delay: 0.4s;
+    }
+
+    /* ── Grain Texture Overlay ── */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0.03;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+      background-repeat: repeat;
+    }
+
+    /* ── Enhanced card hover micro-interactions ── */
+    .glass-card {
+      transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+        border-color 0.35s ease,
+        box-shadow 0.35s ease;
+    }
+
+    .glass-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px -12px rgba(197, 160, 89, 0.15);
+    }
+
+    /* ── Respect reduced-motion ── */
+    @media (prefers-reduced-motion: reduce) {
+      .animate-on-scroll {
+        opacity: 1;
+      }
+
+      .animate-visible,
+      .animate-visible-scale {
+        animation: none;
+        opacity: 1;
+      }
+
       .glass-card {
-        background: rgba(255, 255, 255, 0.02);
-        backdrop-filter: blur(12px);
-        border: 1px solid rgba(197, 160, 89, 0.1);
+        transition: none;
       }
-      .text-gold {
-        color: #C5A059;
+
+      .glass-card:hover {
+        transform: none;
       }
-      .bg-gold {
-        background-color: #C5A059;
-      }
-      .border-gold {
-        border-color: rgba(197, 160, 89, 0.3);
-      }
-      .shadow-gold {
-        box-shadow: 0 10px 30px -10px rgba(197, 160, 89, 0.3);
-      }
-    </style>
-  </head>
-  <body class="bg-[#050a0f] text-white overflow-x-hidden">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    }
+  </style>
+</head>
+
+<body class="bg-[#050a0f] text-white overflow-x-hidden">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    // Intersection Observer for scroll entrance animations
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(
+              entry.target.dataset.animClass || 'animate-visible'
+            );
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+      // Observe after React mounts (short delay)
+      setTimeout(() => {
+        document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+      }, 100);
+    });
+  </script>
+</body>
+
 </html>
