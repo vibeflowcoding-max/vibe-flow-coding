@@ -272,15 +272,14 @@ const App: React.FC = () => {
                                 </div>
                                 <h2 className="text-2xl md:text-4xl font-black uppercase tracking-tight mb-4 leading-tight">{t.leadMagnet.title}</h2>
                                 <p className="text-sm md:text-base text-slate-400 font-medium max-w-xl mx-auto mb-10 leading-relaxed">{t.leadMagnet.desc}</p>
-                                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-md mx-auto">
-                                    <input
-                                        type="email"
-                                        placeholder={t.leadMagnet.emailPlaceholder}
-                                        className="w-full sm:flex-1 px-5 py-4 bg-white/5 border border-white/10 rounded-sm text-sm text-white placeholder-slate-500 font-medium tracking-wider focus:outline-none focus:border-[#C5A059]/50 transition-colors"
-                                    />
-                                    <button className="w-full sm:w-auto bg-[#C5A059] text-black px-6 py-4 rounded-sm font-black text-xs uppercase tracking-[0.2em] hover:scale-105 transition-transform shadow-lg shadow-[#C5A059]/20 whitespace-nowrap">
+                                <div className="flex justify-center">
+                                    <a
+                                        href={lang === 'es' ? '/VibeFlow_Automation_Guide_ES.pdf' : '/VibeFlow_Automation_Guide_EN.pdf'}
+                                        download
+                                        className="inline-block bg-[#C5A059] text-black px-8 py-4 rounded-sm font-black text-xs uppercase tracking-[0.2em] hover:scale-105 transition-transform shadow-lg shadow-[#C5A059]/20"
+                                    >
                                         {t.leadMagnet.cta}
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div className="absolute -top-20 -right-20 w-64 h-64 bg-[#C5A059]/5 blur-[100px] rounded-full"></div>
