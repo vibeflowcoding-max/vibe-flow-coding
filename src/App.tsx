@@ -190,6 +190,29 @@ const App: React.FC = () => {
                     </div>
                 </section>
 
+                {/* Beyond Restaurants Section */}
+                <section id="beyond-restaurants" className="py-20 md:py-32 px-6 bg-[#080e14] overflow-hidden" aria-label="General business automation">
+                    <div className="container mx-auto">
+                        <div className="text-center mb-20 animate-on-scroll">
+                            <div className="inline-block px-4 py-1 mb-6 rounded-sm bg-[#C5A059]/10 text-[#C5A059] text-[10px] font-black uppercase tracking-[0.3em] border border-[#C5A059]/20">
+                                {t.beyondRestaurants.badge}
+                            </div>
+                            <h2 className="text-3xl md:text-5xl font-black uppercase tracking-[0.15em] mb-4">{t.beyondRestaurants.title}</h2>
+                            <div className="w-20 h-1 bg-[#C5A059] mx-auto mb-6"></div>
+                            <p className="text-slate-400 font-medium max-w-2xl mx-auto text-sm md:text-base leading-relaxed">{t.beyondRestaurants.desc}</p>
+                        </div>
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {t.beyondRestaurants.items.map((item, i) => (
+                                <div key={i} className={`p-6 md:p-8 rounded-sm glass-card border border-white/5 hover:border-[#C5A059]/30 transition-all group animate-on-scroll stagger-${i + 1}`}>
+                                    <div className="text-4xl mb-6 opacity-50 group-hover:opacity-100 transition-opacity">{item.icon}</div>
+                                    <h3 className="text-sm font-black uppercase tracking-widest mb-3 text-[#C5A059]">{item.title}</h3>
+                                    <p className="text-xs text-slate-400 leading-relaxed font-medium">{item.desc}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+
                 {/* Services Section */}
                 <section id="services" className="py-20 bg-slate-900/50 overflow-hidden" aria-label="Services and capabilities">
                     <div className="container mx-auto px-6">

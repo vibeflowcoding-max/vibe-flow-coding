@@ -78,6 +78,19 @@ export const translations = {
             aiNote: 'NOTIFICACIÓN DE FLUJO IA',
             aiText: '"Maridaje neuronal completado: Sugiriendo \'Vintage Reserve\' con \'Truffle Pasta\' — Aumento de ticket previsto"'
         },
+        beyondRestaurants: {
+            badge: 'MÁS ALLÁ DE RESTAURANTES',
+            title: 'Automatizamos Cualquier Negocio',
+            desc: 'Los restaurantes son nuestra especialidad, pero nuestro equipo automatiza cualquier tipo de empresa. Si es repetitivo, lo automatizamos.',
+            items: [
+                { title: 'Chatbots IA 24/7', desc: 'Atención al cliente automatizada que responde, enruta, y cierra ventas sin intervención humana.', icon: '🤖' },
+                { title: 'Email Marketing Automático', desc: 'Secuencias de email que se activan por acciones del cliente — registros, compras, carritos abandonados.', icon: '📧' },
+                { title: 'Facturación & Recordatorios', desc: 'Genera facturas, envía recordatorios de pago, y concilia transacciones automáticamente.', icon: '💰' },
+                { title: 'Flujos de Trabajo (Sin Código)', desc: 'Conecta sus apps: formulario → CRM → notificación → seguimiento. Cero programación.', icon: '⚙️' },
+                { title: 'Citas & Reservaciones', desc: 'Los clientes reservan en línea, reciben confirmación y recordatorios automáticos.', icon: '📅' },
+                { title: 'Dashboards con IA', desc: 'Visualice sus métricas clave en tiempo real con análisis predictivo impulsado por IA.', icon: '📊' }
+            ]
+        },
         services: {
             title: 'El Núcleo Técnico',
             subtitle: 'Capacidades de Vibe Flow Coding',
@@ -125,8 +138,8 @@ export const translations = {
         },
         leadMagnet: {
             badge: 'GUÍA GRATUITA',
-            title: '5 Automatizaciones IA que Todo Restaurante Necesita en 2025',
-            desc: 'Descubra las 5 automatizaciones que están transformando restaurantes: desde pedidos por WhatsApp hasta dashboards de IA que reducen el desperdicio.',
+            title: '5 Automatizaciones IA que Todo Negocio Necesita en 2025',
+            desc: 'Descubra las 5 automatizaciones que están transformando negocios: desde chatbots IA hasta dashboards que optimizan sus operaciones.',
             cta: 'Descargar Guía Gratis',
             emailPlaceholder: 'Correo electrónico'
         },
@@ -228,6 +241,19 @@ export const translations = {
             aiNote: 'LIVE FLOW AI',
             aiText: '"Neural pairing complete: Suggesting \'Vintage Reserve\' with \'Truffle Pasta\' — Predicted ticket lift"'
         },
+        beyondRestaurants: {
+            badge: 'BEYOND RESTAURANTS',
+            title: 'We Automate Any Business',
+            desc: 'Restaurants are our specialty, but our team automates any type of business. If it\'s repetitive, we automate it.',
+            items: [
+                { title: 'AI Chatbots 24/7', desc: 'Automated customer service that answers, routes, and closes sales without human intervention.', icon: '🤖' },
+                { title: 'Automated Email Marketing', desc: 'Email sequences triggered by customer actions — sign-ups, purchases, abandoned carts.', icon: '📧' },
+                { title: 'Invoicing & Reminders', desc: 'Auto-generate invoices, send payment reminders, and reconcile transactions automatically.', icon: '💰' },
+                { title: 'Workflow Automation (No Code)', desc: 'Connect your apps: form → CRM → notification → follow-up. Zero programming.', icon: '⚙️' },
+                { title: 'Appointments & Booking', desc: 'Customers book online, receive automatic confirmations and reminders.', icon: '📅' },
+                { title: 'AI-Powered Dashboards', desc: 'Visualize your key metrics in real-time with AI-driven predictive analytics.', icon: '📊' }
+            ]
+        },
         services: {
             title: 'The Technical Core',
             subtitle: 'Vibe Flow Coding Capabilities',
@@ -275,8 +301,8 @@ export const translations = {
         },
         leadMagnet: {
             badge: 'FREE GUIDE',
-            title: '5 AI Automations Every Restaurant Needs in 2025',
-            desc: 'Discover the 5 automations transforming restaurants: from WhatsApp ordering to AI dashboards that slash waste.',
+            title: '5 AI Automations Every Business Needs in 2025',
+            desc: 'Discover the 5 automations transforming businesses: from AI chatbots to dashboards that optimize your operations.',
             cta: 'Download Free Guide',
             emailPlaceholder: 'Your email address'
         },
