@@ -1,24 +1,24 @@
-export const translations = {
+﻿export const translations = {
     es: {
         nav: {
             services: 'Servicios',
-            suite: 'Suite Restaurante',
+            suite: 'Suite Industria',
             solutions: 'Soluciones',
             contact: 'Contacto',
             book: 'Contactar'
         },
         hero: {
-            badge: 'Arquitectura IA para restaurantes que quieren escalar',
+            badge: 'Arquitectura IA para negocios que quieren escalar',
             title: 'DESATA EL FLUJO DEL CRECIMIENTO',
-            desc: 'Vibe Flow Coding construye la arquitectura de IA de élite necesaria para automatizar sus operaciones, optimizar sus recursos y dominar su mercado.',
-            stats: 'Reduzca drásticamente los pedidos manuales. Aumente su ticket promedio. Cero contrataciones adicionales.',
+            desc: 'Agentyze construye la arquitectura de IA de élite necesaria para automatizar sus operaciones, optimizar sus recursos y dominar su mercado.',
+            stats: 'AI Agents that Analyze and Optimize.',
             cta1: 'Hablar por WhatsApp',
             cta2: 'Enviar Email',
             ctaWhatsapp: 'WhatsApp'
         },
         pains: {
             title: 'Fricción Operacional',
-            strategy: 'ESTRATEGIA VF',
+            strategy: 'ESTRATEGIA AGENTYZE',
             stat: 'Más del 50% de los restaurantes ya están adoptando IA en 2025',
             items: [
                 {
@@ -79,21 +79,70 @@ export const translations = {
             aiText: '"Maridaje neuronal completado: Sugiriendo \'Vintage Reserve\' con \'Truffle Pasta\' — Aumento de ticket previsto"'
         },
         beyondRestaurants: {
-            badge: 'MÁS ALLÁ DE RESTAURANTES',
-            title: 'Automatizamos Cualquier Negocio',
-            desc: 'Los restaurantes son nuestra especialidad, pero nuestro equipo automatiza cualquier tipo de empresa. Si es repetitivo, lo automatizamos.',
+            badge: 'Automatización empresarial',
+            title: 'Sistemas autónomos para operaciones modernas',
+            desc: 'Automatizamos procesos repetitivos y críticos: atención, operaciones y finanzas.',
             items: [
-                { title: 'Chatbots IA 24/7', desc: 'Atención al cliente automatizada que responde, enruta, y cierra ventas sin intervención humana.', icon: '🤖' },
-                { title: 'Email Marketing Automático', desc: 'Secuencias de email que se activan por acciones del cliente — registros, compras, carritos abandonados.', icon: '📧' },
-                { title: 'Facturación & Recordatorios', desc: 'Genera facturas, envía recordatorios de pago, y concilia transacciones automáticamente.', icon: '💰' },
-                { title: 'Flujos de Trabajo (Sin Código)', desc: 'Conecta sus apps: formulario → CRM → notificación → seguimiento. Cero programación.', icon: '⚙️' },
-                { title: 'Citas & Reservaciones', desc: 'Los clientes reservan en línea, reciben confirmación y recordatorios automáticos.', icon: '📅' },
-                { title: 'Dashboards con IA', desc: 'Visualice sus métricas clave en tiempo real con análisis predictivo impulsado por IA.', icon: '📊' }
+                {
+                    title: 'Atención autónoma 24/7',
+                    desc: 'Atención inteligente que responde, clasifica y enruta solicitudes en tiempo real.',
+                    bullets: [
+                        'IA contextual responde y enruta solicitudes en segundos.',
+                        'Reduce carga operativa y mejora experiencia del cliente.'
+                    ],
+                    icon: 'robot'
+                },
+                {
+                    title: 'Conversión automatizada',
+                    desc: 'Flujos de seguimiento que convierten interés en ventas de forma continua.',
+                    bullets: [
+                        'IA detecta intención y recomienda la mejor acción/oferta.',
+                        'Recupera leads y automatiza seguimientos sin fricción.'
+                    ],
+                    icon: 'conversion'
+                },
+                {
+                    title: 'Orquestación de procesos (sin código)',
+                    desc: 'Automatización modular de operaciones conectando sistemas y eventos clave.',
+                    bullets: [
+                        'IA conecta apps y dispara flujos según eventos y reglas.',
+                        'Menos tareas manuales, más consistencia operativa.'
+                    ],
+                    icon: 'gear'
+                },
+                {
+                    title: 'Cobros y seguimiento inteligente',
+                    desc: 'Sistema automatizado de cobranza para proteger liquidez y reducir riesgo financiero.',
+                    bullets: [
+                        'IA prioriza cobros, envía recordatorios y reduce morosidad.',
+                        'Conciliación y alertas automáticas para proteger caja.'
+                    ],
+                    icon: 'money'
+                },
+                {
+                    title: 'Reservas y agenda automatizada',
+                    desc: 'Gestión de agenda automatizada con sincronización y confirmación en tiempo real.',
+                    bullets: [
+                        'IA confirma, reprograma y reduce ausencias con recordatorios.',
+                        'Agenda sincronizada con disponibilidad en tiempo real.'
+                    ],
+                    icon: 'calendar'
+                },
+                {
+                    title: 'Inteligencia operativa en tiempo real',
+                    desc: 'Visibilidad ejecutiva continua para decidir con datos confiables.',
+                    bullets: [
+                        'Dashboards con insights + predicción y detección de anomalías.',
+                        'Decisiones rápidas basadas en datos, no suposiciones.'
+                    ],
+                    impact: 'Impacto: decisiones más rápidas, menos riesgo y mayor margen.',
+                    icon: 'chart'
+                }
             ]
         },
         services: {
             title: 'El Núcleo Técnico',
-            subtitle: 'Capacidades de Vibe Flow Coding',
+            subtitle: 'Capacidades de Agentyze',
             items: [
                 { title: 'Web Apps Inteligentes', description: 'Software de alto rendimiento diseñado para un flujo de negocios sin interrupciones.', icon: '⚡' },
                 { title: 'Agentes de IA Autónomos', description: 'Chatbots avanzados y agentes que representan su marca con experiencia.', icon: '🧠' },
@@ -123,16 +172,16 @@ export const translations = {
             title: 'El Costo de No Actuar',
             items: [
                 {
-                    title: 'Su Competencia se Automatiza Primero',
-                    desc: 'Mientras usted procesa pedidos manualmente, sus competidores ya usan IA para atender más clientes, más rápido, con menos personal.'
+                    title: 'Procesos manuales',
+                    desc: 'Cuando su operación depende de tareas manuales, el crecimiento se vuelve frágil. Los errores aumentan, el equipo se sobrecarga y las decisiones se toman sin visibilidad real del negocio.'
                 },
                 {
-                    title: 'Los Costos Laborales Solo Suben',
-                    desc: 'Cada año el trabajo manual se encarece. Cada pedido mal tomado, cada hora extra innecesaria le cuesta dinero que no recupera.'
+                    title: 'Costos crecientes',
+                    desc: 'Cada hora extra innecesaria, cada tarea repetitiva y cada error operativo representa dinero que no se recupera. Sin automatización, el margen se comprime constantemente.'
                 },
                 {
-                    title: 'Los Clientes Esperan Digital',
-                    desc: 'Los comensales esperan menús digitales, pedidos por WhatsApp y respuestas instantáneas. Si no lo ofrece, van donde sí lo tengan.'
+                    title: 'Decisiones reactivas',
+                    desc: 'Sin análisis en tiempo real, las decisiones se toman tarde. Se reacciona al problema en lugar de anticiparlo. Esto reduce la capacidad de competir, adaptarse y escalar con confianza.'
                 }
             ]
         },
@@ -153,10 +202,10 @@ export const translations = {
             tagline: 'Diseñado para la élite',
             call: 'Llamar',
             email: 'Correo',
-            rights: '© 2025 VIBE FLOW CODING'
+            rights: '© 2026 AGENTYZE'
         },
         chat: {
-            welcome: "Bienvenido a Vibe Flow Coding. Soy su estratega de IA. ¿Cómo podemos optimizar su negocio hoy?",
+            welcome: "Bienvenido a Agentyze. Soy su estratega de IA. ¿Cómo podemos optimizar su negocio hoy?",
             status: "ESTRATEGIA EXPERTA",
             typing: "PROCESANDO ESTRATEGIA...",
             placeholder: "PREGUNTE POR NUESTROS SERVICIOS..."
@@ -165,7 +214,7 @@ export const translations = {
     en: {
         nav: {
             services: 'Services',
-            suite: 'Restaurant Suite',
+            suite: 'Industry Suite',
             solutions: 'Solutions',
             contact: 'Contact',
             book: 'Contact'
@@ -173,15 +222,15 @@ export const translations = {
         hero: {
             badge: 'AI Architecture for Restaurants That Want to Scale',
             title: 'UNLEASH THE FLOW OF GROWTH',
-            desc: 'Vibe Flow Coding builds the elite AI architecture required to automate your operations, optimize your resources, and dominate your market.',
-            stats: 'Drastically reduce manual order handling. Increase your average ticket. Zero additional hires.',
+            desc: 'Agentyze builds the elite AI architecture required to automate your operations, optimize your resources, and dominate your market.',
+            stats: 'AI Agents that Analyze and Optimize.',
             cta1: 'Chat on WhatsApp',
             cta2: 'Send Email',
             ctaWhatsapp: 'WhatsApp'
         },
         pains: {
             title: 'Operational Friction',
-            strategy: 'VF STRATEGY',
+            strategy: 'AGENTYZE STRATEGY',
             stat: 'Over 50% of restaurants are already adopting AI in 2025',
             items: [
                 {
@@ -242,21 +291,70 @@ export const translations = {
             aiText: '"Neural pairing complete: Suggesting \'Vintage Reserve\' with \'Truffle Pasta\' — Predicted ticket lift"'
         },
         beyondRestaurants: {
-            badge: 'BEYOND RESTAURANTS',
-            title: 'We Automate Any Business',
-            desc: 'Restaurants are our specialty, but our team automates any type of business. If it\'s repetitive, we automate it.',
+            badge: 'Business automation',
+            title: 'Autonomous systems for modern operations',
+            desc: 'We automate repetitive and critical processes across customer service, operations, and finance.',
             items: [
-                { title: 'AI Chatbots 24/7', desc: 'Automated customer service that answers, routes, and closes sales without human intervention.', icon: '🤖' },
-                { title: 'Automated Email Marketing', desc: 'Email sequences triggered by customer actions — sign-ups, purchases, abandoned carts.', icon: '📧' },
-                { title: 'Invoicing & Reminders', desc: 'Auto-generate invoices, send payment reminders, and reconcile transactions automatically.', icon: '💰' },
-                { title: 'Workflow Automation (No Code)', desc: 'Connect your apps: form → CRM → notification → follow-up. Zero programming.', icon: '⚙️' },
-                { title: 'Appointments & Booking', desc: 'Customers book online, receive automatic confirmations and reminders.', icon: '📅' },
-                { title: 'AI-Powered Dashboards', desc: 'Visualize your key metrics in real-time with AI-driven predictive analytics.', icon: '📊' }
+                {
+                    title: 'Autonomous support 24/7',
+                    desc: 'Intelligent support that responds, classifies, and routes requests in real time.',
+                    bullets: [
+                        'Contextual AI answers and routes requests in seconds.',
+                        'Reduces operational load and improves customer experience.'
+                    ],
+                    icon: 'robot'
+                },
+                {
+                    title: 'Automated conversion',
+                    desc: 'Continuous follow-up flows that turn interest into revenue.',
+                    bullets: [
+                        'AI detects intent and recommends the best next action/offer.',
+                        'Recovers leads and automates follow-ups without friction.'
+                    ],
+                    icon: 'conversion'
+                },
+                {
+                    title: 'Process orchestration (no code)',
+                    desc: 'Modular automation that connects systems and critical events.',
+                    bullets: [
+                        'AI connects apps and triggers flows based on rules and events.',
+                        'Fewer manual tasks, more operational consistency.'
+                    ],
+                    icon: 'gear'
+                },
+                {
+                    title: 'Smart collections and follow-up',
+                    desc: 'Automated collections system that protects liquidity and reduces financial risk.',
+                    bullets: [
+                        'AI prioritizes collections, sends reminders, and reduces delinquency.',
+                        'Automated reconciliation and alerts to protect your cash.'
+                    ],
+                    icon: 'money'
+                },
+                {
+                    title: 'Automated booking and scheduling',
+                    desc: 'Automated schedule management with real-time sync and confirmation.',
+                    bullets: [
+                        'AI confirms, reschedules, and reduces no-shows with reminders.',
+                        'Calendar synchronized with real-time availability.'
+                    ],
+                    icon: 'calendar'
+                },
+                {
+                    title: 'Real-time operational intelligence',
+                    desc: 'Live executive visibility for faster, data-driven decisions.',
+                    bullets: [
+                        'Dashboards with insights, prediction, and anomaly detection.',
+                        'Faster decisions based on data, not assumptions.'
+                    ],
+                    impact: 'Impact: faster decisions, lower risk, and stronger margins.',
+                    icon: 'chart'
+                }
             ]
         },
         services: {
             title: 'The Technical Core',
-            subtitle: 'Vibe Flow Coding Capabilities',
+            subtitle: 'Agentyze Capabilities',
             items: [
                 { title: 'Intelligent Web Apps', description: 'High-performance software designed for seamless business flow.', icon: '⚡' },
                 { title: 'Autonomous AI Agents', description: 'Advanced chatbots and agents that represent your brand with expertise.', icon: '🧠' },
@@ -316,13 +414,20 @@ export const translations = {
             tagline: 'Engineered for the elite',
             call: 'Call',
             email: 'Email',
-            rights: '© 2025 VIBE FLOW CODING'
+            rights: '© 2026 AGENTYZE'
         },
         chat: {
-            welcome: "Welcome to Vibe Flow Coding. I'm your AI strategist. How can we optimize your business today?",
+            welcome: "Welcome to Agentyze. I'm your AI strategist. How can we optimize your business today?",
             status: "EXPERT STRATEGY",
             typing: "PROCESSING STRATEGY...",
             placeholder: "ASK ABOUT OUR SERVICES..."
         }
     }
 };
+
+
+
+
+
+
+
