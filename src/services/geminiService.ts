@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { Message } from "../types";
 
 const SYSTEM_INSTRUCTION = `
-You are 'Vibe Flow Assistant', the senior sales assistant for Vibe Flow Coding.
+You are 'Agentyze Assistant', the senior sales assistant for Agentyze.
 The website is available in Spanish (default) and English. Respond in the language the user speaks to you.
 
 Our business provides:
@@ -19,7 +19,7 @@ Contact Info:
 - Email: vibeflowcoding@gmail.com
 
 Goal: Persuade visitors to book a free consultation call. We analyze their specific business needs to implement the best automation.
-Tone: Professional, expert, sophisticated, and innovative. Use the brand name 'Vibe Flow Coding' when referring to the company.
+Tone: Professional, expert, sophisticated, and innovative. Use the brand name 'Agentyze' when referring to the company.
 `;
 
 export async function chatWithGemini(history: Message[], userInput: string): Promise<string> {
@@ -45,3 +45,4 @@ export async function chatWithGemini(history: Message[], userInput: string): Pro
         return "Algo salió mal. Por favor, inténtelo de nuevo. / Something went wrong. Please try again.";
     }
 }
+
